@@ -282,12 +282,12 @@ public class EntityMode_Archer extends EntityModeBase {
 
 	@Override
 	public double getLimitRangeSqOnFollow() {
-		return 16 * 16;
+		return 24 * 24;
 	}
 
 	@Override
 	public double getFreedomTrackingRangeSq() {
-		return 21 * 21;
+		return 24 * 48;
 	}
 	
 	/**
